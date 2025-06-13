@@ -1,36 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>ポートフォリオ｜大山 誠史</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      max-width: 800px;
-      margin: 2rem auto;
-      line-height: 1.8;
-      padding: 1rem;
-      background-color: #f8f9fa;
-    }
-    h1, h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.2em;
-    }
-    .project {
-      margin-bottom: 2rem;
-      background: #fff;
-      padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    a {
-      color: #007BFF;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>大山誠史のポートフォリオ</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <h1>大山 誠史のポートフォリオ</h1>
@@ -43,26 +17,28 @@
     <li>やってみたいこと：AIを活用した業務自動化やWebアプリ開発</li>
   </ul>
 
-  <h2>🛠 作ったアプリ</h2>
+  <h2>🛠 制作物</h2>
 
   <div class="project">
     <h3>📘 メモアプリ</h3>
+    <img src="memo_screenshot.png" alt="メモアプリのスクリーンショット" />
     <p><strong>使用技術：</strong>Python, Flask, SQLite</p>
     <p><strong>概要：</strong>タイトルと本文を保存できる簡易Webメモアプリです。</p>
-    <p><a href="https://github.com/yourname/memo-app" target="_blank">▶ GitHubリポジトリ</a></p>
     <p><strong>工夫：</strong>入力内容のバリデーションと、メモの一覧・削除機能を実装しました。</p>
+    <p><a href="https://github.com/Soyms/memo_app" target="_blank">▶ GitHubでコードを見る</a></p>
   </div>
 
   <div class="project">
-    <h3>🌐 天気予報取得ツール</h3>
-    <p><strong>使用技術：</strong>Python, requests, API</p>
-    <p><strong>概要：</strong>OpenWeatherMap APIを使って、指定地域の天気情報を取得・表示します。</p>
+    <h3>Pythonリバーシゲーム（プレイヤー vs CPU）</h3>
+      <img src="reversi_screenshot.png" alt="リバーシのスクリーンショット" />
+      <p><strong>工夫：</strong>tkinterでGUIを構築し、ミニマックス法でAIの思考を実装しました。Shiftキーでリセット可能。</p>
+      <a href="https://github.com/Soyms/reversi-game" target="_blank">▶ GitHubでコードを見る</a>
   </div>
 
   <h2>📬 連絡先</h2>
   <ul>
-    <li>GitHub: <a href="https://github.com/yourname">https://github.com/yourname</a></li>
-    <li>Email: yourname@example.com</li>
+    <li>GitHub: <a href="https://github.com/Soyms">https://github.com/Soyms</a></li>
+    <li>Email: s.oyama202506@gmail.com</li>
   </ul>
 </body>
 </html>
